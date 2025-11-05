@@ -1,0 +1,42 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    background-color: #ecfff8;
+}
+
+.header {
+    color: #b20d30;
+    font-weight: bold;
+    font-size: 3em;
+    padding: 5px;
+}
+
+img {
+    border-color: #cb9173;
+    border-style: solid;
+    border-width: 5px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    background-color:#122932;
+    padding: 10px;
+}
+
+.navbar>a {
+    color: #ecfff8;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+p {
+    color: #122932;
+    margin: 1em;
+}
