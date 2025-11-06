@@ -1,7 +1,7 @@
 body {
     background-color: #ecfff8;
     display: grid;
-    grid-template-rows: 4em 2.5em 1fr 2.5em;
+    grid-template-rows: 4em 7.5em 1fr 2.5em;
     height: 100vh;
 }
 
@@ -21,6 +21,7 @@ body {
     font-size: 3em;
     grid-row: 1;
     padding: 5px;
+    white-space: nowrap;
 }
 
 img {
@@ -28,22 +29,17 @@ img {
     border-style: solid;
     border-width: 5px;
     float: left;
+    width: auto;
     margin-right: 5px;
     margin-bottom: 5px;
-}
-
-@media (max-width: 768px) {
-    body {
-        grid-template-rows: 4em 7.5em 1fr 2.5em;
-    }
-    .navbar {
-        flex-direction: column;
-    }
+    max-width: 30%;
 }
 
 .navbar {
+    align-items: center;
     background-color:#122932;
     display: flex;
+    flex-direction: column;
     grid-row: 2;
     justify-content: space-evenly;
 }
@@ -72,4 +68,13 @@ p {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+@media (min-width: 768px) {
+    body {
+        grid-template-rows: 4em 2.5em 1fr 2.5em;
+    }
+    .navbar {
+        flex-direction: row;
+    }
 }
