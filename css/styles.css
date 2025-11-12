@@ -61,10 +61,7 @@ input {
 input:focus {
     background-color: #ecfff8;
     border-color: #b20d30;
-}
-
-label:focus {
-    font-weight: bold;
+    outline: thin dotted;
 }
 
 .navbar {
