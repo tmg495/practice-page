@@ -5,6 +5,23 @@ body {
     height: 100vh;
 }
 
+button {
+    background-color: #122932;
+    border-radius: 3px;
+    color:#ecfff8;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+button:hover {
+    background-color: #ecfff8;
+    color:#122932;
+}
+
+.form-group {
+    padding: 10px;
+}
+
 .footer {
     align-items: center;
     background-color: #122932;
@@ -33,6 +50,15 @@ img {
     margin-right: 5px;
     margin-bottom: 5px;
     max-width: 30%;
+}
+
+input {
+    border-color: #122932;
+}
+
+input:focus {
+    background-color: #ecfff8;
+    border-color: #b20d30;
 }
 
 .navbar {
