@@ -11,6 +11,7 @@ button {
     color:#ecfff8;
     margin-top: 10px;
     margin-left: 60px;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 button:hover {
@@ -54,11 +55,16 @@ img {
 
 input {
     border-color: #122932;
+    transition: background-color 0.5s;
 }
 
 input:focus {
     background-color: #ecfff8;
     border-color: #b20d30;
+}
+
+label:focus {
+    font-weight: bold;
 }
 
 .navbar {
